@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Tenders & Wings",
+      "cover": "http://tiding.dev.woovoo.com/image/SkAgLv3NseyIdXK9TjbrMqhUm3D4gxQD7zO6ivLS.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "Signature Chicken",
+      "cover": "http://tiding.dev.woovoo.com/image/D2dfA06ta0048t4TIWS64hdKkYtK0Dq2IzDK30e1.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Seafood",
+      "cover": "http://tiding.dev.woovoo.com/image/r12JhcgeRDQamagBvGfcAO8RolgqauP6qMEm3tjg.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Sides",
+      "cover": "http://tiding.dev.woovoo.com/image/kvOMqLPvZFEei3b1vEJ05kYTap71Ke6I1SP7VlgS.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Beverages",
+      "cover": "http://tiding.dev.woovoo.com/image/bNXBxXrIJnae9gARwLS98o8fZ4iXpOasxBb97ex6.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Desserts",
+      "cover": "http://tiding.dev.woovoo.com/image/VijhCWzqoLp2TOyOjltQPb0NBVicAvLqz1oxmi7u.jpeg"
+    }
+  ]
+}

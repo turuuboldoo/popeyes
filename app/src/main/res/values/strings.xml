@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Popeyes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_login">Login</string>
+    <string name="menu_register">Register</string>
+    <!--    <string name="menu_slideshow">Branches</string>-->
+    <!--    <string name="menu_tools">Products</string>-->
+    <!--    <string name="menu_share">Contact</string>-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="order">Order</string>
+    <string name="user_register">User Register</string>
+    <string name="hint_register">Enter your register</string>
+    <string name="hint_phone">Enter your phone number</string>
+    <string name="hint_address">Enter your address</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="hint_pass">Enter your password</string>
+    <string name="save">Save</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="successfully_registered">Successfully Registered</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+</resources>

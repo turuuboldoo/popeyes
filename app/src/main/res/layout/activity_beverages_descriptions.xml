@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BeveragesDescriptions">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tendres And Wings"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:src="@drawable/tenders"
+            android:paddingTop="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tenders"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Handcrafted Tenders are marinated in their own special seasoning. Round it out with a hot buttery biscuit and one of our signature sides."
+            android:textSize="20sp"
+            android:id="@+id/tenders"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$16"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/mbtnBeverages"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Order"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TenderDescriptions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tendres And Wings"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:paddingTop="16dp"
+            android:src="@drawable/tenders" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tenders"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Handcrafted Tenders are marinated in their own special seasoning. Round it out with a hot buttery biscuit and one of our signature sides."
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$16"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/mbtnTender"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Order" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:paddingTop="16dp"
+                android:src="@drawable/tenders" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Boneless Wings"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Seven juicy all white meat boneless wings. Round it out with one of our signature sides and a hot buttery biscuit."
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$16"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/mbtnWings"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="Order" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
